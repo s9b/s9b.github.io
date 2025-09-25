@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Saaz Bhargava</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn close"></span>
+                <span class="btn minimize"></span>
+                <span class="btn maximize"></span>
+            </div>
+            <div class="terminal-title">saaz.bhargava@portfolio:~$</div>
+        </div>
+        
+        <div class="terminal-body">
+            <div class="terminal-content">
+                <!-- Navigation -->
+                <div class="nav-section">
+                    <div class="command-line">
+                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
+                        <span class="command">ls -la</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="index.html" class="nav-link">About</a>
+                        <a href="projects.html" class="nav-link active">Projects</a>
+                        <a href="experience.html" class="nav-link">Experience</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                </div>
+
+                <!-- ASCII Art -->
+                <div class="ascii-art">
+                    <pre>
+ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄
+█       █      █      █       █
+█  ▄▄▄▄▄█  ▄   █  ▄   █▄▄▄▄   █
+█ █▄▄▄▄▄█ █▄█  █ █▄█  █▄▄▄▄█  █
+█▄▄▄▄▄  █      █      █ ▄▄▄▄▄▄█
+ ▄▄▄▄▄█ █  ▄   █  ▄   █ █▄▄▄▄▄
+█▄▄▄▄▄▄▄█▄█ █▄▄█▄█ █▄▄█▄▄▄▄▄▄▄█
+                    </pre>
+                </div>
+
+                <!-- Main Content -->
+                <div class="main-content">
+                    <h1>My Projects</h1>
+                    
+                    <!-- Projects Section -->
+                    <section class="section">
+                        <div class="command-line">
+                            <span class="prompt">saaz.bhargava@portfolio:~$</span>
+                            <span class="command">cat projects.md</span>
+                        </div>
+                        <div class="content">
+                            <h2>Featured Projects</h2>
+                            
+                            <div class="projects-grid">
+                                <div class="project-card featured">
+                                    <div class="project-header">
+                                        <h3>Diabetic Retinopathy Detection</h3>
+                                        <div class="project-tags">
+                                            <span class="tag ml">ML</span>
+                                            <span class="tag deep-learning">Deep Learning</span>
+                                            <span class="tag computer-vision">Computer Vision</span>
+                                        </div>
+                                    </div>
+                                    <p>Developed a deep learning pipeline using EfficientNet + attention layers to detect retinopathy from retinal images, achieving high accuracy and F1-score on benchmark datasets (Messidor-2).</p>
+                                    <div class="project-stats">
+                                        <div class="stat">
+                                            <span class="stat-label">Accuracy</span>
+                                            <span class="stat-value">94.2%</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-label">F1-Score</span>
+                                            <span class="stat-value">0.91</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-label">Dataset</span>
+                                            <span class="stat-value">Messidor-2</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/s9b/Diabetic-Retinopathy-Detection-using-SA-EffNetB3" class="btn-link" target="_blank">Code</a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>Fitness Assessment Tracker (FAT)</h3>
+                                        <div class="project-tags">
+                                            <span class="tag fullstack">Full-Stack</span>
+                                            <span class="tag mern">MERN</span>
+                                        </div>
+                                    </div>
+                                    <p>Developed a full-stack Fitness Assessment Tracker using the MERN stack (MongoDB, Express.js, React.js, Node.js). Enabled users to track workouts, monitor fitness progress, and receive AI-powered personal coaching.</p>
+                                    <div class="project-links">
+                                        <a href="https://github.com/s9b/Fitness-Asessment-Tracker" class="btn-link" target="_blank">Code</a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>Personal Financial Advisor</h3>
+                                        <div class="project-tags">
+                                            <span class="tag fullstack">Full-Stack</span>
+                                            <span class="tag ai">AI/ML</span>
+                                        </div>
+                                    </div>
+                                    <p>Developed a full-stack finance advisor web app (React, Node/Express, FastAPI, MongoDB) for budgeting, expense tracking, and investment planning. Implemented AI/ML models for spend anomaly detection and Azure OpenAI for natural-language financial advice.</p>
+                                    <div class="project-links">
+                                        <a href="#" class="btn-link disabled">Code (Coming Soon)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="command-line">
+                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
+                        <span class="command">echo "Available"</span>
+                    </div>
+                    <p>© Saaz Bhargava | 2025</p>
+                    <p>v1.0.0</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
