@@ -3,94 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Saaz Bhargava's portfolio showcasing projects, experience, and contact details in data science and full-stack development.">
-    <meta name="theme-color" content="#0a0a0a">
-    <title>Blog - Saaz Bhargava</title>
-    <link rel="stylesheet" href="styles.css?v=3">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="Working notes and ideas from Saaz Bhargava on RAG systems, MLOps, and applied AI engineering.">
+    <meta name="theme-color" content="#0b110d">
+    <title>Blog | Saaz Bhargava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-buttons">
-                <span class="btn close"></span>
-                <span class="btn minimize"></span>
-                <span class="btn maximize"></span>
-            </div>
-            <div class="terminal-title">saaz.bhargava@portfolio:~$</div>
-        </div>
-        
-        <div class="terminal-body">
-            <div class="terminal-content">
-                <!-- Navigation -->
-                <div class="nav-section">
-                    <div class="command-line">
-                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                        <span class="command">ls -la</span>
+
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="site-logo" href="index.html">&gt;. saaz.bhargava@portfolio:~$</a>
+            <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">menu</button>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a class="nav-link" href="index.html"><span class="nav-icon">01</span>About</a>
+                <a class="nav-link" href="projects.html"><span class="nav-icon">02</span>Projects</a>
+                <a class="nav-link" href="experience.html"><span class="nav-icon">03</span>Experience</a>
+                <a class="nav-link active" href="blog.html" aria-current="page"><span class="nav-icon">04</span>Blog</a>
+                <a class="nav-link" href="contact.html"><span class="nav-icon">05</span>Contact</a>
+            </nav>
+            <div class="availability-pill"><span class="status-dot"></span>Writing in public, slowly</div>
+        </header>
+
+        <div class="page-shell">
+            <aside class="sidebar">
+                <section class="panel reveal">
+                    <div class="panel-kicker">$ note</div>
+                    <h2 class="section-title">This is a working notebook</h2>
+                    <p class="muted">Instead of a placeholder page, this now reflects the kinds of technical ideas I keep returning to while building projects.</p>
+                </section>
+
+                <section class="panel reveal">
+                    <div class="panel-kicker">$ recurring_topics</div>
+                    <div class="chips">
+                        <span class="chip chip-green">retrieval quality</span>
+                        <span class="chip chip-cyan">ml reliability</span>
+                        <span class="chip chip-violet">governance</span>
+                        <span class="chip chip-yellow">product thinking</span>
                     </div>
-                    <nav class="nav-links" aria-label="Primary">
-                        <a href="index.html" class="nav-link">About</a>
-                        <a href="projects.html" class="nav-link">Projects</a>
-                        <a href="experience.html" class="nav-link">Experience</a>
-                        <a href="blog.html" class="nav-link active" aria-current="page">Blog</a>
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </nav>
-                </div>
+                </section>
+            </aside>
 
-                <!-- ASCII Art -->
-                <div class="ascii-art">
-                    <pre>
- ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄
-█       █      █      █       █
-█  ▄▄▄▄▄█  ▄   █  ▄   █▄▄▄▄   █
-█ █▄▄▄▄▄█ █▄█  █ █▄█  █▄▄▄▄█  █
-█▄▄▄▄▄  █      █      █ ▄▄▄▄▄▄█
- ▄▄▄▄▄█ █  ▄   █  ▄   █ █▄▄▄▄▄
-█▄▄▄▄▄▄▄█▄█ █▄▄█▄█ █▄▄█▄▄▄▄▄▄▄█
-                    </pre>
-                </div>
+            <main class="main-panel" id="main-content">
+                <section class="panel page-heading reveal">
+                    <div class="page-kicker">saaz.dev@portfolio:~$ cat lab-notes.md</div>
+                    <h1 class="page-title">Lab notes, working theories, and patterns.</h1>
+                    <p class="lead">Not a traditional blog archive yet. Think of this as a public scratchpad for the ideas shaping how I build retrieval systems, ML pipelines, and AI developer tools.</p>
+                </section>
 
-                <!-- Main Content -->
-                <main class="main-content" id="main-content">
-                    <h1>Blog</h1>
-                    
-                    <!-- Blog Section -->
-                    <section class="section">
-                        <div class="command-line">
-                            <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                            <span class="command">cat blog.md</span>
-                        </div>
-                        <div class="content">
-                            <h2>Latest Posts</h2>
-                            <p><em>Insights and updates on Data Science, Machine Learning, and modern web development trends. Exploring AI/ML technologies, coding best practices, and the future of data-driven applications through hands-on experience.</em></p>
-                            
-                            <div class="blog-posts">
-                                <article class="blog-post">
-                                    <div class="blog-meta">
-                                        <span class="blog-category">General</span>
-                                        <span class="blog-read-time">1 Minute Read</span>
-                                    </div>
-                                    <h3>Hello for now, will update soon!!!</h3>
-                                    <p>This is a placeholder blog post. I'll be adding more content about my projects, learnings, and insights in data science and web development soon!</p>
-                                    <a href="#" class="read-more">Read the blog</a>
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-                </main>
+                <section class="blog-grid">
+                    <article class="panel blog-card reveal">
+                        <div class="panel-kicker">Field note 01</div>
+                        <h3>RAG gets better when evaluation comes before prompting tricks</h3>
+                        <p>The strongest retrieval work I have done starts with how we score retrieval quality, not with surface-level assistant behavior. Once the retriever is measurable, the rest of the system stops feeling random.</p>
+                        <ul class="detail-list">
+                            <li><strong>Seen in:</strong> simple-RAG and MemoryPal-style workflows.</li>
+                            <li><strong>Bias:</strong> prefer smaller, inspectable retrieval systems before scaling complexity.</li>
+                        </ul>
+                    </article>
 
-                <!-- Footer -->
-                <footer class="footer">
-                    <div class="command-line">
-                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                        <span class="command">echo "Available"</span>
-                    </div>
-                    <p>© Saaz Bhargava | 2026</p>
-                    <p>v1.1.0</p>
-                </footer>
-            </div>
+                    <article class="panel blog-card reveal">
+                        <div class="panel-kicker">Field note 02</div>
+                        <h3>ML pipelines feel more real once CI and monitoring enter the room</h3>
+                        <p>Model performance is only part of the story. Once tests, tracking, versioning, and monitoring are added, the project becomes something a team can trust and maintain instead of a one-time experiment.</p>
+                        <ul class="detail-list">
+                            <li><strong>Seen in:</strong> the fraud detection MLOps pipeline.</li>
+                            <li><strong>Practical result:</strong> easier debugging, clearer regressions, and better handoffs.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel blog-card reveal">
+                        <div class="panel-kicker">Field note 03</div>
+                        <h3>Model governance should feel like tooling, not paperwork</h3>
+                        <p>If documentation quality and compliance checks are painful, they get skipped. The better approach is to design governance into the workflow itself so developers get fast feedback instead of extra friction.</p>
+                        <ul class="detail-list">
+                            <li><strong>Seen in:</strong> model-card-auditor.</li>
+                            <li><strong>Question:</strong> how do we make responsible AI habits the path of least resistance?</li>
+                        </ul>
+                    </article>
+                </section>
+            </main>
         </div>
+
+        <footer class="site-footer">
+            <span>© 2026 Saaz Bhargava</span>
+            <span class="footer-note">More writing will grow out of active project work</span>
+        </footer>
     </div>
 
     <script src="script.js" defer></script>

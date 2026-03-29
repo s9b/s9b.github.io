@@ -3,149 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Saaz Bhargava's portfolio showcasing projects, experience, and contact details in data science and full-stack development.">
-    <meta name="theme-color" content="#0a0a0a">
-    <title>Saaz Bhargava - Portfolio</title>
-    <link rel="stylesheet" href="styles.css?v=3">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="Saaz Bhargava builds AI systems, RAG workflows, and production-ready ML products with a strong full-stack foundation.">
+    <meta name="theme-color" content="#0b110d">
+    <title>About | Saaz Bhargava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-buttons">
-                <span class="btn close"></span>
-                <span class="btn minimize"></span>
-                <span class="btn maximize"></span>
-            </div>
-            <div class="terminal-title">saaz.bhargava@portfolio:~$</div>
-        </div>
-        
-        <div class="terminal-body">
-            <div class="terminal-content">
-                <!-- Navigation -->
-                <div class="nav-section">
-                    <div class="command-line">
-                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                        <span class="command">ls -la</span>
+
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="site-logo" href="index.html">&gt;. saaz.bhargava@portfolio:~$</a>
+            <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">menu</button>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a class="nav-link active" href="index.html" aria-current="page"><span class="nav-icon">01</span>About</a>
+                <a class="nav-link" href="projects.html"><span class="nav-icon">02</span>Projects</a>
+                <a class="nav-link" href="experience.html"><span class="nav-icon">03</span>Experience</a>
+                <a class="nav-link" href="blog.html"><span class="nav-icon">04</span>Blog</a>
+                <a class="nav-link" href="contact.html"><span class="nav-icon">05</span>Contact</a>
+            </nav>
+            <div class="availability-pill"><span class="status-dot"></span>Available for full-time roles</div>
+        </header>
+
+        <div class="page-shell">
+            <aside class="sidebar">
+                <section class="panel profile-card reveal">
+                    <div class="profile-media">
+                        <img class="profile-img" src="profile.jpeg" alt="Portrait of Saaz Bhargava" width="640" height="780">
+                        <div class="file-badge mono">profile.jpeg</div>
                     </div>
-                    <nav class="nav-links" aria-label="Primary">
-                        <a href="index.html" class="nav-link active" aria-current="page">About</a>
-                        <a href="projects.html" class="nav-link">Projects</a>
-                        <a href="experience.html" class="nav-link">Experience</a>
-                        <a href="blog.html" class="nav-link">Blog</a>
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </nav>
-                </div>
-
-                <!-- ASCII Art -->
-                <div class="ascii-art">
-                    <pre>
- ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄
-█       █      █      █       █
-█  ▄▄▄▄▄█  ▄   █  ▄   █▄▄▄▄   █
-█ █▄▄▄▄▄█ █▄█  █ █▄█  █▄▄▄▄█  █
-█▄▄▄▄▄  █      █      █ ▄▄▄▄▄▄█
- ▄▄▄▄▄█ █  ▄   █  ▄   █ █▄▄▄▄▄
-█▄▄▄▄▄▄▄█▄█ █▄▄█▄█ █▄▄█▄▄▄▄▄▄▄█
-                    </pre>
-                </div>
-
-                <!-- Main Content -->
-                <main class="main-content" id="main-content">
-                    <h1>Data Science &amp; Full-Stack Developer's Portfolio</h1>
-                    
-                    <!-- About Section -->
-                    <section class="section">
-                        <div class="command-line">
-                            <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                            <span class="command">cat about.txt</span>
-                        </div>
-                        <div class="content">
-                            <h2>Welcome to Saaz Bhargava's Developer Portfolio!</h2>
-                            <p>Explore my journey as a Data Science and Full-Stack Developer specializing in machine learning, web development, and data analytics.</p>
-                            
-                            <div class="profile-info">
-                                <div class="profile-image">
-                                    <img src="profile.jpeg" alt="Saaz Bhargava" class="profile-img" loading="lazy" decoding="async" width="180" height="180">
-                                </div>
-                                <div class="profile-details">
-                                    <h3>About Me</h3>
-                                    <p>I'm a passionate Computer Science student with specialization in Data Science at SRM Institute of Science and Technology. I love building innovative solutions using modern technologies and have experience in full-stack development, machine learning, and data analytics.</p>
-                                    
-                                    <div class="skills">
-                                        <h4>Skills</h4>
-                                        <div class="skill-tags">
-                                            <span class="skill-tag">Python</span>
-                                            <span class="skill-tag">JavaScript</span>
-                                            <span class="skill-tag">React.js</span>
-                                            <span class="skill-tag">Node.js</span>
-                                            <span class="skill-tag">MongoDB</span>
-                                            <span class="skill-tag">PyTorch</span>
-                                            <span class="skill-tag">TensorFlow</span>
-                                            <span class="skill-tag">Machine Learning</span>
-                                            <span class="skill-tag">Data Analytics</span>
-                                            <span class="skill-tag">FastAPI</span>
-                                            <span class="skill-tag">Docker</span>
-                                            <span class="skill-tag">Git</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Featured Project -->
-                    <section class="featured-project">
-                        <div class="command-line">
-                            <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                            <span class="command">ls -la projects/</span>
-                        </div>
-                        <div class="content">
-                            <h2>Featured Project:</h2>
-                            <div class="project-card featured">
-                                <div class="project-header">
-                                    <h3>Diabetic Retinopathy Detection</h3>
-                                    <div class="project-tags">
-                                        <span class="tag ml">ML</span>
-                                        <span class="tag deep-learning">Deep Learning</span>
-                                        <span class="tag computer-vision">Computer Vision</span>
-                                    </div>
-                                </div>
-                                <p>Developed a deep learning pipeline using EfficientNet + attention layers to detect retinopathy from retinal images, achieving high accuracy and F1-score on benchmark datasets (Messidor-2).</p>
-                                <div class="project-stats">
-                                    <div class="stat">
-                                        <span class="stat-label">Accuracy</span>
-                                        <span class="stat-value">94.2%</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-label">F1-Score</span>
-                                        <span class="stat-value">0.91</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-label">Dataset</span>
-                                        <span class="stat-value">Messidor-2</span>
-                                    </div>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/s9b/Diabetic-Retinopathy-Detection-using-SA-EffNetB3" class="btn-link" target="_blank" rel="noopener noreferrer">Code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </main>
-
-                <!-- Footer -->
-                <footer class="footer">
-                    <div class="command-line">
-                        <span class="prompt">saaz.bhargava@portfolio:~$</span>
-                        <span class="command">echo "Available"</span>
+                    <div class="identity-copy">
+                        <div class="role-pill">AI / ML Engineer + Full-stack Builder</div>
+                        <h2>Saaz Bhargava</h2>
+                        <p class="muted">Computer Science student at SRM focused on practical AI systems, retrieval workflows, and ML products that can actually ship.</p>
                     </div>
-                    <p>© Saaz Bhargava | 2026</p>
-                    <p>v1.1.0</p>
-                </footer>
-            </div>
+                    <ul class="info-list">
+                        <li><span>based</span><div>Delhi, India</div></li>
+                        <li><span>email</span><div><a href="mailto:saazbhargav@gmail.com">saazbhargav@gmail.com</a></div></li>
+                        <li><span>github</span><div><a href="https://github.com/s9b" target="_blank" rel="noopener noreferrer">github.com/s9b</a></div></li>
+                        <li><span>linkedin</span><div><a href="https://linkedin.com/in/saazbhargava" target="_blank" rel="noopener noreferrer">linkedin.com/in/saazbhargava</a></div></li>
+                    </ul>
+                    <div class="project-links">
+                        <a class="button-link" href="Saaz_Bhargava_Resume.pdf" target="_blank" rel="noopener noreferrer">Download resume</a>
+                        <a class="button-link" href="projects.html">View projects</a>
+                    </div>
+                </section>
+
+                <section class="panel reveal">
+                    <div class="panel-kicker">$ current_focus</div>
+                    <h2 class="section-title">What I am leaning into now</h2>
+                    <div class="chips">
+                        <span class="chip chip-green">MLOps pipelines</span>
+                        <span class="chip chip-cyan">RAG evaluation</span>
+                        <span class="chip chip-violet">Model auditing</span>
+                        <span class="chip chip-yellow">FastAPI backends</span>
+                        <span class="chip chip-red">Production UX for AI</span>
+                    </div>
+                </section>
+            </aside>
+
+            <main class="main-panel" id="main-content">
+                <section class="panel page-heading reveal">
+                    <div class="page-kicker">saaz.dev@portfolio:~$ cat about.md</div>
+                    <h1 class="page-title cursor">Building AI systems that ship.</h1>
+                    <p class="lead">I work at the intersection of machine learning, backend engineering, and product thinking. My recent work spans RAG systems, model governance tooling, fraud detection MLOps, and efficient computer vision pipelines.</p>
+                </section>
+
+                <section class="stat-grid reveal">
+                    <article class="stat-card">
+                        <div class="stat-value">35</div>
+                        <div class="stat-label">public repositories</div>
+                        <p class="muted">An active GitHub footprint across ML, backend, tooling, and experiments.</p>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-value">8.37</div>
+                        <div class="stat-label">CGPA / 10</div>
+                        <p class="muted">B.Tech in Computer Science with Data Science specialization at SRM IST.</p>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-value">5+</div>
+                        <div class="stat-label">flagship builds</div>
+                        <p class="muted">From governed AI systems to medical imaging and fraud pipelines.</p>
+                    </article>
+                </section>
+
+                <section class="content-grid two-column">
+                    <article class="panel reveal">
+                        <div class="panel-kicker">$ summary</div>
+                        <h2 class="section-title">What I do best</h2>
+                        <ul class="detail-list">
+                            <li><strong>AI product building:</strong> taking LLM or ML ideas from notebook stage to usable apps.</li>
+                            <li><strong>Retrieval and evaluation:</strong> building RAG flows with FAISS, sentence transformers, and measurable retrieval quality.</li>
+                            <li><strong>Reliable ML delivery:</strong> adding CI/CD, experiment tracking, testing, and monitoring around models.</li>
+                            <li><strong>Full-stack execution:</strong> shipping interfaces and APIs with FastAPI, Node.js, React, and Streamlit.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel reveal">
+                        <div class="panel-kicker">$ stack</div>
+                        <h2 class="section-title">Core stack</h2>
+                        <div class="chips">
+                            <span class="chip chip-green">Python</span>
+                            <span class="chip chip-cyan">JavaScript</span>
+                            <span class="chip chip-violet">PyTorch</span>
+                            <span class="chip chip-yellow">TensorFlow</span>
+                            <span class="chip chip-green">FastAPI</span>
+                            <span class="chip chip-cyan">React</span>
+                            <span class="chip chip-violet">FAISS</span>
+                            <span class="chip chip-yellow">Docker</span>
+                            <span class="chip chip-red">GitHub Actions</span>
+                            <span class="chip chip-green">SQL / SQLite</span>
+                            <span class="chip chip-cyan">MongoDB</span>
+                            <span class="chip chip-violet">AWS / GCP / Azure OpenAI</span>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="content-grid two-column">
+                    <article class="panel reveal">
+                        <div class="panel-kicker">$ selected_highlights</div>
+                        <h2 class="section-title">Recent build highlights</h2>
+                        <ul class="detail-list">
+                            <li><strong>Fraud Detection MLOps Pipeline:</strong> XGBoost pipeline on 590k IEEE-CIS transactions with ROC-AUC 0.93, CI, monitoring, and API serving.</li>
+                            <li><strong>Model Card Auditor:</strong> an AI governance tool focused on model-card quality, compliance checks, and developer-friendly audit workflows.</li>
+                            <li><strong>MemoryPal:</strong> a study assistant that converts notes into summaries, flashcards, and question answering with spaced repetition.</li>
+                            <li><strong>SA-EffNetB3:</strong> an attention-guided diabetic retinopathy model with 95.77% validation accuracy and edge-friendly deployment goals.</li>
+                        </ul>
+                    </article>
+
+                    <article class="panel reveal">
+                        <div class="panel-kicker">$ education</div>
+                        <h2 class="section-title">Academic track</h2>
+                        <p>SRM Institute of Science and Technology, Chennai</p>
+                        <p class="muted">B.Tech in Computer Science with specialization in Data Science, 2022-2026.</p>
+                        <ul class="detail-list">
+                            <li><strong>Relevant areas:</strong> machine learning, deep learning, DSA, DBMS, DevOps.</li>
+                            <li><strong>Why it matters:</strong> I like pairing theory with production constraints instead of treating them as separate worlds.</li>
+                            <li><strong>Working style:</strong> fast iteration, measurable results, and clean handoff-ready implementation.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="panel reveal">
+                    <div class="panel-kicker">$ next</div>
+                    <h2 class="section-title">Where I can contribute immediately</h2>
+                    <div class="chips">
+                        <span class="chip chip-green">Applied AI teams</span>
+                        <span class="chip chip-cyan">ML platform work</span>
+                        <span class="chip chip-violet">Backend + API engineering</span>
+                        <span class="chip chip-yellow">Evaluation and observability</span>
+                        <span class="chip chip-red">Product-minded experimentation</span>
+                    </div>
+                </section>
+            </main>
         </div>
+
+        <footer class="site-footer">
+            <span>© 2026 Saaz Bhargava</span>
+            <span class="footer-note">Version 2.0 • synced with resume + GitHub</span>
+        </footer>
     </div>
 
     <script src="script.js" defer></script>
